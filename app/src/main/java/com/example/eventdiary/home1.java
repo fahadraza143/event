@@ -41,6 +41,7 @@ public class home1 extends AppCompatActivity {
 
     }
   private void prepairethelist(){
+
         int count = 0;
         for(String name : name){
             events event =new events(name,pic[count]);
